@@ -1,6 +1,6 @@
 # Diet-Therapy-App
 
-Inside the main directory of the unzipped source code folder, you will find the following:
+Inside the master directory, you will find the following:
 
 3 FOLDERS
 - assets
