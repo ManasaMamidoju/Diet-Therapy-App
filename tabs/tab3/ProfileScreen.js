@@ -358,6 +358,19 @@ export default function ProfileScreen({ navigation }) {
                             <View style={styles.sideRowPadding} />
                         </View>
 
+                        <View style={styles.measurementsViewContainer}>
+                            <View style={styles.sideRowPadding} />
+                            <View style={{ flex: 0.9 }}>
+                                <TouchableOpacity style={styles.appButtonContainer}
+                                    onPress={() => navigation.navigate("Measurements")}>
+                                    <Text style={styles.appButtonText}>
+                                        Measurements
+                                    </Text>
+                                </TouchableOpacity>
+                            </View>
+                            <View style={styles.sideRowPadding} />
+                        </View>
+
                         <View style={styles.settingsViewContainer}>
                             <View style={styles.sideRowPadding} />
                             <View style={{ flex: 0.9 }}>

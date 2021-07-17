@@ -21,6 +21,8 @@ export default function Tab3Controller() {
                 options={{ headerShown: false }} />
             <Stack.Screen name="MedicalHistory" component={MedicalHistoryScreen}
                 options={{ headerShown: false }} />
+            <Stack.Screen name="Measurements" component={MeasurementsScreen}
+                options={{ headerShown: false }} />
             <Stack.Screen name="Exercise" component={ExerciseHelpScreen}
                 options={{ headerShown: false }} />
         </Stack.Navigator>
